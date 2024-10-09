@@ -1,0 +1,32 @@
+* {
+   
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 30px;
+    
+    font-size: 20px;
+    background-color:#748df1;    
+    color: white;
+    li{
+        display: inline-block;
+        padding: 20px 100px 0px 100px;
+    } 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;    
+    padding: 10px;
+    flex: 1; 
+}
+footer {
+    background-color: #748df1;    
+    color: white;    
+    text-align: center;   
+    padding: 10px;   
+}
+
+
